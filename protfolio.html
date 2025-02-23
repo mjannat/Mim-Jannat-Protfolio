@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mim Jannat Talukder - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f8fb;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #6c5ce7;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 4px solid #4e39c7;
+        }
+        header h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 18px;
+        }
+        .contact-links {
+            margin-top: 10px;
+        }
+        .contact-links a, .email-link {
+            color: white;
+            margin: 0 12px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+        section {
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #6c5ce7;
+        }
+        .card h2 {
+            font-size: 28px;
+            color: #6c5ce7;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #6c5ce7;
+            color: white;
+            margin-top: 30px;
+        }
+        a {
+            color: #6c5ce7;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        li::before {
+            content: "• ";
+            color: #6c5ce7;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .experience-section {
+            background-color: #e6efff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .experience-company {
+            color: #4e39c7;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #6c5ce7;
+        }
+        .experience-details {
+            margin-top: 10px;
+            color: #333;
+        }
+        .experience-details ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .experience-details ul li::before {
+            content: none; /* Removes the second bullet point in the details section */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mim Jannat Talukder</h1>
+        <p>Software Engineer | Python | Odoo | Django | ERP</p>
+        <p class="email-link">Email: <a href="mailto:mimjannat361996@gmail.com" style="color: white; font-weight: bold;">mimjannat361996@gmail.com</a></p>
+        <p>Mobile: +8801533623490</p>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/mim-jannat-talukder-35717415b" target="_blank">LinkedIn</a> |
+            <a href="https://leetcode.com/u/mjannat/" target="_blank">LeetCode</a> |
+            <a href="https://www.stopstalk.com/user/profile/mjannat" target="_blank">StopStalk</a> |
+            <a href="https://lightoj.com/user/mjannat435" target="_blank">LightOJ</a>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="card">
+            <h2>About Me</h2>
+            <p>Experienced Software Engineer with 4+ years in developing ERP systems, and API integrations. Skilled in ODOO, Python, Django, and REST APIs. Strong problem-solving abilities with competitive programming experience. Passionate about building scalable, secure, and high-performance software solutions.</p>
+        </section>
+        
+        <section class="card">
+            <h2>Skills & Technologies</h2>
+            <p>Python (ODOO, Django), PostgreSQL, REST APIs, JWT Authentication, Docker, GitHub Copilot, Gemini Flash APIs, Unit Testing, Agile/Scrum.</p>
+        </section>
+        
+        <section class="card experience-section">
+            <h2>Experience</h2>
+            <div class="experience-company">
+                Software Engineer - Confidence Group (Stardust Telecommunication Ltd), May 2023 – Present
+            </div>
+            <div class="experience-details">
+                <ul>
+                    <li>Developed in-house ERP for Confidence Cement Ltd, Confidence Cement Dhaka Ltd, Confidence Power Holdings.</li>
+                    <li>Integrated JWT-based authentication APIs for the company's mobile application, improving security.</li>
+                    <li>Fetched data from the HRIS solution and maintained it in the system for CCL employees.</li>
+                    <li>Modules include purchase, inventory, fleet management, weight scale, sales, and more.</li>
+                    <li>Designed and implemented role-based access control (RBAC) to ensure data protection.</li>
+                    <li>Integrated weight scale machines with the ERP solution for CCDL & CCL.</li>
+                    <li>Implemented Dockerized deployments, partially managing containerized applications.</li>
+                    <li>Managed GIT branching and merging for different servers with proper updates and features.</li>
+                    <li>Collaborated with cross-functional teams using Agile methodologies, leading sprint planning and code reviews.</li>
+                    <li>Utilized GitHub Copilot & Gemini Flash APIs for faster development & insights.</li>
+                    <li>Led unit testing efforts, reducing system bugs by 30% and improving reliability.</li>
+                </ul>
+            </div>
+
+            <div class="experience-company">
+                Software Engineer - Cloud Creative Ltd, Nov 2021 – May 2023
+            </div>
+            <div class="experience-details">
+                <ul>
+                    <li>Designed and developed customized ERP systems for Healthcare Pharmaceuticals, Shohoz, and Prothom Alo.</li>
+                    <li>Designed HR, payroll, attendance, and recruitment modules, reducing manual work by 40%.</li>
+                    <li>Integrated Oracle API and other data sources for real-time employee data synchronization.</li>
+                    <li>Optimized database performance and automated data fetching from HRIS for 10000+ employees.</li>
+                    <li>Conducted requirements gathering and led UAT sessions for successful software rollouts.</li>
+                </ul>
+            </div>
+
+            <div class="experience-company">
+                Software Engineer - Divine IT Ltd, Aug 2020 – Nov 2021
+            </div>
+            <div class="experience-details">
+                <ul>
+                    <li>Contributed to PrismERP-P-Series and PrismVAT as a Python developer, handling bug fixes and feature enhancements.</li>
+                    <li>Updated tax-related content for PrismVAT and developed business intelligence (BI) reports using SQL.</li>
+                    <li>Led the development of the Linespay feature and resolved critical issues under pressure.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="card">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Champion - Intra-University Programming Contest & NGPC 2017.</li>
+                <li>Top 20 in National Girls Programming Contest 2019.</li>
+                <li>18th Position in NSU IUGPC 2019.</li>
+                <li>Participated in 20+ coding contests.</li>
+            </ul>
+        </section>
+        
+        <section class="card">
+            <h2>Education</h2>
+            <p>B.Sc. in Computer Science & Engineering, Institute of Science & Technology (IST), 2021</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Mim Jannat Talukder | Portfolio</p>
+    </footer>
+</body>
+</html>
+
